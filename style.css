@@ -174,4 +174,5 @@ li a{
 .blog-grid{ 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); 
+    align-items: center;
 }

@@ -175,3 +175,7 @@ li a{
     transform: translate(3%,0);
 
 }
+.blog-grid{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
+}

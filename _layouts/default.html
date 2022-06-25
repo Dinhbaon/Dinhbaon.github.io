@@ -24,7 +24,7 @@
     <div>{{content}}</div>
     <div class="blog-grid" style="max-width:100%; ">
         {% for post in site.posts %}
-        <img src="{{site.baseurl}}/assets/img/my-image.jpg">            
+        <img {{page.img}}>            
         <h1 style="font-weight: 450; width: 12em;">
                 <a style="text-decoration: none; color: black; " href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
                 <p style="font-size: 0.5em;"> {{ site.time | date_to_long_string }}</p>   

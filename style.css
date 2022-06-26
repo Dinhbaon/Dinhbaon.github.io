@@ -152,7 +152,7 @@ li a{
     height: 30px; 
     width: 90px; 
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px; 
     border-radius: 10px;  
     color: black; 
@@ -175,4 +175,14 @@ li a{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); 
     justify-items: center;
+}
+
+#post-header{ 
+    margin-left: 50px; 
+
+}
+#blog-icon{ 
+    width: 10vw; 
+    height: auto;
+    border-radius: 10px;
 }

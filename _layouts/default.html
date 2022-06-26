@@ -28,7 +28,7 @@
         <h1 style="font-weight: 450; width: 12em;">
             <a style="text-decoration: none; color: black; " href="{{ post.url }}"><img id="blog-icon" src="{{ post.img | prepend: site.baseurl }}"> </a>
             <br>
-                <a style="text-decoration: none; color: black; " href="{{ post. url }}">{{ post.title }}</a>
+                <a style="text-decoration: none; color: black; " href="{{{ site.baseurl }}{{ post.url }}}">{{ post.title }}</a>
                 <p style="font-size: 0.5em;"> {{ site.time | date_to_long_string }}</p>   
             </h1>
         {% endfor %}

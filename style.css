@@ -128,7 +128,7 @@ li a{
     text-align: center;
     height: 200px;
     border-radius: 10px; 
-    width: 45vw;
+    width: 30vw;
     transform: translate(3%,0);
   }
   .contact{ 
@@ -173,7 +173,7 @@ li a{
 }
 .blog-grid{ 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr)); 
     justify-items: center;
 }
 

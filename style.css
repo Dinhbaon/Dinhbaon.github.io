@@ -173,7 +173,7 @@ li a{
 }
 .blog-grid{ 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr)); 
+    grid-template-columns: repeat(2, minmax(30vw, 1fr)); 
     justify-items: center;
 }
 

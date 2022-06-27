@@ -170,14 +170,13 @@ li a{
   }
 .captions{ 
 
-    position: relative; 
+    display: flex;
+    flex-direction: column;
 
 }
 
 div.captions a, div.captions p{
-    position: absolute; 
-    bottom: 0;   
-    float: left;
+    margin-top: auto;
 
 }
 .blog-grid{ 

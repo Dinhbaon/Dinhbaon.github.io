@@ -171,6 +171,7 @@ li a{
 .captions{ 
     float: left;
     bottom:0; 
+    position: absolute;
 
 }
 .blog-grid{ 

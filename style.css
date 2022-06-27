@@ -169,7 +169,8 @@ li a{
     text-decoration: none;  
   }
 .captions{ 
-    transform: translate(3%,0);
+    float: left;
+    float: bottom;
 
 }
 .blog-grid{ 

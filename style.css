@@ -174,7 +174,8 @@ li a{
 }
 .blog-grid{ 
     display: grid;
-    grid-template-columns: repeat(2, minmax(30vw, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr)); 
+    grid-template-rows: repeat(2, minmax(20vw, 1fr)); 
     column-gap: 10px; 
     justify-items: center;
 }

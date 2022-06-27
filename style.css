@@ -36,7 +36,7 @@ body {
 
 .nav-bar{ 
     position: sticky;
-    height: 30px; 
+    height: 50px; 
     width: 98vw;
     border-radius: 10px; 
     border: 2px solid black;  
@@ -52,7 +52,8 @@ body {
 ul.nav-bar li{
     float: right;
     display: inline-block;
-    padding: 5px 100px;    
+    padding: 5px 100px;   
+    font-size: 1.5rem;  
 }
 
 .arrow-down {
@@ -174,7 +175,7 @@ li a{
 .blog-grid{ 
     display: grid;
     grid-template-columns: repeat(2, minmax(30vw, 1fr)); 
-    grid-template-rows: repeat(auto-fit, minmax(20vw, 1fr));
+    column-gap: 10px; 
     justify-items: center;
 }
 

@@ -170,7 +170,8 @@ li a{
   }
 .captions{ 
     float: left;
-    float: bottom;
+    position: relative;
+    bottom:0; 
 
 }
 .blog-grid{ 

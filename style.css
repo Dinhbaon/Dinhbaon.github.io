@@ -188,6 +188,7 @@ div.captions a, div.captions p{
     margin-left: 50px;
 }
 #blog-icon{ 
-    max-width:100%;
-    max-height:100%;
+        width: 100%; 
+        height: 100%; 
+        object-fit: contain;
 }

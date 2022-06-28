@@ -170,13 +170,11 @@ li a{
   }
 .captions{ 
 
-    display: flex;
-    flex-direction: column;
 
 }
 
 div.captions a, div.captions p{
-    align-self: flex-start;
+
     float: left; 
     transform: transateY(-50px);
     

@@ -176,8 +176,8 @@ li a{
 }
 
 div.captions a, div.captions p{
-    margin-top: auto;
-
+    align-self: flex-end;
+    
 }
 .blog-grid{ 
     display: grid;

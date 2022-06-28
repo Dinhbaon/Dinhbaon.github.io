@@ -167,14 +167,12 @@ li a{
   }
 
 div.captions a, div.captions p{
-
+    transform: translateY(50px);
     float: left; 
    
     
 }
-.captions{ 
-    padding-top: 20px; 
-}
+
 .blog-grid{ 
     display: grid;
     grid-template-columns: repeat(2, minmax(35vw, 1fr)); 

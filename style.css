@@ -191,8 +191,6 @@ div.captions a, div.captions p{
     margin-left: 50px;
 }
 #blog-icon{ 
-    width: 10vw; 
-    height: auto;
-    border-radius: 10px;
-    object-fit: contain;
+    max-width:100%;
+    max-height:100%;
 }

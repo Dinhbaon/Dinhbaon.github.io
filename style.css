@@ -166,7 +166,7 @@ li a{
     text-decoration: none;  
   }
 
-div.captions a, div.captions p{
+div.captions div, div.captions p{
     transform: translateY(40px);
     float: left; 
    

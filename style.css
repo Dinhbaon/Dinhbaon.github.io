@@ -176,7 +176,7 @@ li a{
 div.captions a, div.captions p{
 
     float: left; 
-    transform: transateY(-50px);
+    transform: translateY(-50px);
     
 }
 .blog-grid{ 

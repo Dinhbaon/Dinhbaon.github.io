@@ -169,7 +169,7 @@ li a{
 div.captions a, div.captions p{
 
     float: left; 
-
+    transform: translateY(20px);
     
 }
 .blog-grid{ 

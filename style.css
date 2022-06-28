@@ -167,7 +167,7 @@ li a{
   }
 
 div.captions a, div.captions p{
-    transform: translateY(50px);
+    transform: translateY(40px);
     float: left; 
    
     

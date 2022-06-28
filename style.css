@@ -178,6 +178,7 @@ li a{
 div.captions a, div.captions p{
     align-self: flex-start;
     float: left; 
+    transform: transateY(-50px);
     
 }
 .blog-grid{ 

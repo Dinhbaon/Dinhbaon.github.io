@@ -174,7 +174,7 @@ div.captions div, div.captions p{
 
 .blog-grid{ 
     display: grid;
-    grid-template-columns: repeat(2, minmax(35vw, 1fr)); 
+    grid-template-columns: repeat(3, minmax(35vw, 1fr)); 
     grid-template-rows: repeat(auto-fit, minmax(25vw, 1fr)); 
     column-gap: 10px; 
     justify-items: center;

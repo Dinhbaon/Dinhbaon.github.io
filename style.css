@@ -132,9 +132,6 @@ li a{
   .blog-grid-item {
     padding: 5px 5px; 
     text-align: center;
-    height: 200px;
-    border-radius: 10px; 
-    width: 20vw;
     transform: translate(3%,0);
   }
   .contact{ 

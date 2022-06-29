@@ -31,10 +31,12 @@
                     <ul>
                     <li>
                    <a style="text-decoration: none; color: black;   " href="{{post.url}} ">{{ post.title }}</a>
+                   <br/>
+                   <p style="font-size: 0.75em;"> {{ site.time | date_to_long_string }}</p>  
                    </li>
                    </ul>
-                    <br/>
-                    <p style="font-size: 0.75em;"> {{ site.time | date_to_long_string }}</p>  
+                    
+                    
                 </div>
             </div>
 

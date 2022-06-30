@@ -142,9 +142,10 @@ li a{
   }
   .license{ 
     float: left; 
-    color: orange; 
+    color: lightsalmon; 
     background-color: wheat; 
     font-size: 0.75rem;  
+    width: 100%; 
   }
   div.contact h2{ 
     margin: 0; 

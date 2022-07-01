@@ -1,4 +1,4 @@
 ---
-layout: project-page
+layout: projectpage
 title: project
 ---

@@ -24,7 +24,7 @@
     <div>{{content}}</div>
     <div class="projects"style="max-width:100%"> 
         {% for post in site.posts %}
-        
+        {% if post.categories contains "project" %}
 
             <div class="grid-item">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
@@ -36,7 +36,7 @@
             </div>
         </div>
     
-        
+        {% end if %}
         {% endfor %}
     </div>
     </div>

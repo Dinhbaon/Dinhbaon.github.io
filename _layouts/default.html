@@ -24,6 +24,7 @@
     <div>{{content}}</div>
     <div class="blog-grid"style="max-width:100%"> 
         {% for post in site.posts %}
+        {% if post.category != "project" %}
 
             <div class="blog-grid-item">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
@@ -40,7 +41,7 @@
                 </div>
             </div>
 
-       
+       {% endif %}
         {% endfor %}
     </div>
     </div>

@@ -2,4 +2,5 @@
 layout: post
 title: "test"
 img: /drunk_cat.PNG
+category:  project
 ---

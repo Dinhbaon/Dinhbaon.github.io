@@ -24,7 +24,7 @@
     <div>{{content}}</div>
     <div class="blog-grid"style="max-width:100%"> 
         {% for post in site.post %}
-        {% if post.category == project %}
+        {% if post.category == "project" %}
 
             <div class="grid-item">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">

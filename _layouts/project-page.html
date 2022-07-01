@@ -20,7 +20,7 @@
             <li><a href="index.html">Home</a></li>
 
         </ul>
-    <h1 style="margin-left: 20px;">{{projects.title}}</h1>
+    <h1 style="margin-left: 20px;">{{post.title}}</h1>
     <div>{{content}}</div>
     <div class="blog-grid"style="max-width:100%"> 
         {% for post in site.project-post %}
@@ -30,7 +30,7 @@
                 <img id="blog-icon" src="{{ post.img }}"> </a>
             </div>
             <div class="captions">
-                <a style="text-decoration: none; color: black; " href="{{post.url}} ">{{ projects.title }}</a>
+                <a style="text-decoration: none; color: black; " href="{{post.url}} ">{{ post.title }}</a>
                 <p style="font-size: 0.5em;"> {{ site.time | date_to_long_string }}</p>   
             </h1>
                 <p style="font-size: 0.5em;"> {{ site.time | date_to_long_string }}</p>  

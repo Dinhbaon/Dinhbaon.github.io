@@ -22,9 +22,9 @@
         </ul>
     <h1 style="margin-left: 20px;">{{post.title}}</h1>
     <div>{{content}}</div>
-    <div class="blog-grid"style="max-width:100%"> 
-        {% for post in site.post %}
-        {% if page.categories == "project" %}
+    <div class="projects"style="max-width:100%"> 
+        {% for post in site.posts %}
+        
 
             <div class="grid-item">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
@@ -37,7 +37,6 @@
         </div>
     
         
-       {% endif %}
         {% endfor %}
     </div>
     </div>

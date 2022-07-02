@@ -23,6 +23,7 @@
     <h1 style="margin-left: 20px;">{{post.title}}</h1>
     <div>{{content}}</div>
     <div class="projects"style="max-width:100%"> 
+        
         {% for post in site.posts %}
         {% if post.categories contains "project" %}
 
@@ -35,8 +36,7 @@
                 <p style="font-size: 0.5em;"> {{ site.time | date_to_long_string }}</p>   
             </div>
         </div>
-    
-        {% end if %}
+        {% endif %}
         {% endfor %}
     </div>
     </div>

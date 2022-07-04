@@ -2,6 +2,7 @@ html{
     font-family:Verdana, Tahoma, sans-serif;
     scroll-behavior: smooth !important;
     max-width: 100%;
+    overflow-x: hidden;
 }
 .center{ 
     position: absolute;

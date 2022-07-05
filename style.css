@@ -147,6 +147,7 @@ li a{
     background-color: wheat; 
     font-size: 0.75rem;  
     min-width: 100%; 
+    position: relative; 
   }
   div.contact h2{ 
     margin: 0; 

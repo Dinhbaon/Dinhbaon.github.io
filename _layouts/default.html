@@ -23,13 +23,13 @@
 
     <div>{{content}}</div>
     <div class="blog-grid"style="max-width:100%"> 
-        
+    
         {% for post in site.posts %}
         {% if post.categories contains "project" %}
 
         {%else%}
 
-            <div class="blog-grid-item">
+            <div class="blog-grid-item" style="padding-top: 10vw;">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
                 <div class="captions">
                     <ul>

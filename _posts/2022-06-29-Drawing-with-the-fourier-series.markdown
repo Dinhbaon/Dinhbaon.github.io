@@ -10,4 +10,6 @@ Before we talk about the Fourier series, let's first talk about it's perhaps mor
 <br/>
 The Fourier transform allows us to seperate a wave in to the frequencies that it is composed of. Here is a nice gif from the wikipedia page: 
 <br/>
-![Fourier_transform_gif](https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/Fourier_transform.gif)
+<p>
+<img src="https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/Fourier_transform.gif" alt="Fourier_transform_gif">
+</p>

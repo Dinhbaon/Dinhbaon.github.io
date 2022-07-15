@@ -200,7 +200,8 @@ div.captions div, div.captions p{
 
 }
 #post-content{ 
-    margin-left: 50px;
+    width: 80vw; 
+    margin: auto auto; 
 }
 #blog-icon{ 
         width: 100%; 

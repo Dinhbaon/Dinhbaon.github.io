@@ -6,4 +6,6 @@ url: _posts\2022-06-25-Drawing-with-the-fourier-series.markdown
 img: /drunk cat.PNG
 categories:
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Before we talk about the Fourier series, let's first talk about it's perhaps more common and well-known cousin - the Fourier Transform. 
+The Fourier transform allows us to seperate a wave in to the frequencies that it is composed of. Here is a nice gif from the wikipedia page: 
+![Fourier_transform_gif](Fourier_transform.gif)

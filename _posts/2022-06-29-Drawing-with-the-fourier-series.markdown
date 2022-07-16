@@ -13,5 +13,7 @@ Firstly, let's examine the properties of cosine. A sine function has a period of
  $$\displaystyle\sum_{n=1} ^{\infty} a_n cos(nx)$$
  
 
-The same applies for sine. 
+The same can be applied for sine functions, however,they will be odd instead: 
+
+ $$\displaystyle\sum_{n=1} ^{\infty} a_n sin(nx)$$
 

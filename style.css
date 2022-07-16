@@ -132,7 +132,7 @@ li a{
   }
 
   .blog-grid-item {
-
+    padding: 10px; 
     text-align: center;
     display: inline-block;
     vertical-align: top;    

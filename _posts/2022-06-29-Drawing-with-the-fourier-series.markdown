@@ -12,5 +12,5 @@ The Fourier transform allows us to seperate a wave in to the frequencies that it
 <br/>
 
 
-![Fourier_transform]("https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/Fourier_transform.gif"){margin:auto}
+![Fourier_transform]("https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/Fourier_transform.gif"){:style="display:block; margin-left:auto; margin-right:auto"}
 

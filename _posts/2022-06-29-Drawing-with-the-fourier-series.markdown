@@ -7,9 +7,9 @@ img: /drunk cat.PNG
 categories:
 ---
 Before we talk about the Fourier series, let's first talk about it's perhaps more common and well-known cousin - the Fourier Transform. 
-<br/>
+
+
 The Fourier transform allows us to seperate a wave in to the frequencies that it is composed of. Here is a nice gif from the wikipedia page: 
-<br/>
 
 
 ![Fourier_transform](https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/Fourier_transform.gif){:style="display:block; margin-left:auto; margin-right:auto"}

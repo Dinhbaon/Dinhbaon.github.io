@@ -6,11 +6,9 @@ url: _posts\2022-06-25-Drawing-with-the-fourier-series.markdown
 img: /drunk cat.PNG
 categories:
 ---
-Before we talk about the Fourier series, let's first talk about it's perhaps more common and well-known cousin - the Fourier Transform. 
+The Fourier series is the idea that any given function can be represented by a sum of sinusoids with varying amplitudes and frequencies. In particular,  sin and cosine. 
 
+Firstly, let's examine the properties of sine. A sine function has a period of 2$\pi$ and is an odd function. This means that when we create a sum of sine functions the resulting function will retain these properties - namely, continue to be a periodic and an odd function. 
 
-The Fourier transform allows us to seperate a wave in to the frequencies that it is composed of. Here is a nice gif from the wikipedia page: 
-
-
-![Fourier_transform](https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/Fourier_transform.gif){:style="display:block; margin-left:auto; margin-right:auto"}
+The same applies for cosine. 
 

@@ -21,6 +21,6 @@ The same can be applied for sine functions, however,they will be odd instead:
 
  $$ F(x)=\displaystyle\sum_{n=1} ^{\infty} a_n \cos(nx)+\displaystyle\sum_{n=1} ^{\infty} a_n \sin(nx)$$
 
- A constant should also be added to account for sinusoids with "zero" frequency. Let this variable be a_0: 
+ A constant should also be added to account for sinusoids with "zero" frequency. Let this variable be $$a_0$$: 
   $$ F(x)=a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(nx)+\displaystyle\sum_{n=1} ^{\infty} a_n \sin(nx)$$
 

@@ -25,5 +25,5 @@ The same can be applied for sine functions, however,they will be odd instead:
 
   $$ F(x)=a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(nx)+\displaystyle\sum_{n=1} ^{\infty} b_n \sin(nx)$$
 
-  Finally, as we have a general equation for the representation of any function $$F(x)$$. However, in order to actually get an equation for any given $$F(x)$$ we now need to find a way to compute $$a_0, a_n and b_n for all n$$. 
+  Finally, as we have a general equation for the representation of any function $$F(x)$$. However, in order to actually get an equation for any given $$F(x)$$ we now need to find a way to compute $$a_0$$, $$a_n$$ and $$b_n$$ for all $$n$$. 
 

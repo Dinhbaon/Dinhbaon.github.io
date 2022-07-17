@@ -6,6 +6,7 @@ url: _posts\2022-06-25-Drawing-with-the-fourier-series.markdown
 img: /drunk cat.PNG
 categories:
 ---
+### Deriving the Fourier series: 
 The Fourier series is the idea that any given function can be represented by a sum of sinusoids with varying amplitudes and frequencies. In particular,  sin and cosine. 
 
 Firstly, let's examine the properties of cosine. A sine function has a period of $$ 2\pi $$ and is an even function. This means that when we create a sum of cosine functions the resulting function will retain these properties - namely, continue to be a periodic and an even function regardless of their amplitude or frequency. These sums can be represented as: 
@@ -26,4 +27,10 @@ The same can be applied for sine functions, however,they will be odd instead:
   $$ F(x)=a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(nx)+\displaystyle\sum_{n=1} ^{\infty} b_n \sin(nx)$$
 
   Finally, as we have a general equation for the representation of any function $$F(x)$$. However, in order to actually get an equation for any given $$F(x)$$ we now need to find a way to compute $$a_0$$, $$a_n$$ and $$b_n$$ for all $$n$$. 
+
+  ### Finding the Coefficients: 
+
+First Lets begin by finding a way to come up with a general equation for $$a_0$$. To do this I've taken inspiration from 3Blue1Brown's brilliant video on the topic: 
+
+[![But what is a Fourier series? From heat flow to drawing with circles | DE4](http://img.youtube.com/vi/r6sGWTCMz2k/0.jpg)](http://www.youtube.com/watch?v=r6sGWTCMz2k "But what is a Fourier series? From heat flow to drawing with circles | DE4")
 

@@ -17,3 +17,10 @@ The same can be applied for sine functions, however,they will be odd instead:
 
  $$\displaystyle\sum_{n=1} ^{\infty} a_n \sin(nx)$$
 
+ Therefore, any arbitrary function can be composed of these even and odd parts, without being even or odd itself. Therefore, the sum of these sinusoids will allow us to represent any periodic function: 
+
+ $$ F(x)=\displaystyle\sum_{n=1} ^{\infty} a_n \cos(nx)+\displaystyle\sum_{n=1} ^{\infty} a_n \sin(nx)$$
+
+ A constant should also be added to account for sinusoids with "zero" frequency. Let this variable be a_0: 
+  $$ F(x)=a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(nx)+\displaystyle\sum_{n=1} ^{\infty} a_n \sin(nx)$$
+

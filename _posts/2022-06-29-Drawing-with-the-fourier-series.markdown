@@ -32,5 +32,5 @@ The same can be applied for sine functions, however,they will be odd instead:
 
 First Lets begin by finding a way to come up with a general equation for $$a_0$$. To do this I've taken inspiration from 3Blue1Brown's brilliant video on the topic: 
 
-![But what is a Fourier series? From heat flow to drawing with circles | DE4](http://img.youtube.com/vi/r6sGWTCMz2k/0.jpg)
+![But what is a Fourier series? From heat flow to drawing with circles | DE4](//img.youtube.com/vi/r6sGWTCMz2k/0.jpg)
 

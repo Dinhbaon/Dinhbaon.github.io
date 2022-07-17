@@ -20,6 +20,14 @@ html{
     background-color: beige;
 
 }
+.myBlogPost{ 
+    display: block;
+    width: 100vw;  
+    margin: 0; 
+    padding: 0; 
+    max-width: 100%;
+    background-color: beige;
+}
 #intro{
     font-weight: 450;   
     font-family: helvetica, sans-serif; 

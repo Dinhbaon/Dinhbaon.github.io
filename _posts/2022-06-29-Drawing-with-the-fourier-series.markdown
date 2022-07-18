@@ -34,9 +34,12 @@ The same can be applied for sine functions, however,they will be odd instead:
 
 <div style="margin: auto;"> <a href="https://www.youtube.com/watch?v=r6sGWTCMz2k" style="margin:auto;"><img src="https://img.youtube.com/vi/r6sGWTCMz2k/0.jpg" alt="Fourier_series_video" style="margin: auto;"/> </a></div>
 
+[![Fourier_series_video](https://img.youtube.com/vi/r6sGWTCMz2k/0.jpg){:style="display:block; margin-left:auto; margin-right:auto"}](https://www.youtube.com/watch?v=r6sGWTCMz2k)
+
 
  Although, 3Blue1Brown's video pertains to the exponential form of Fourier series, the same method can be applied to derive an equation which gives us $$a_0$$. 
 
  In essence, each sine or cos function in the summation represents a rotating vector. With sin "vectors"  beginning its rotation exactly $$\pi/2$$ before the cos: 
 
-<div style="margin: auto;"> <img src="https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/_assets/_gifs/1tyC.gif" >   </div> 
+![Sine as a vector](https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/_assets/_gifs/1tyC.gif){:style="display:block; margin-left:auto; margin-right:auto"}
+

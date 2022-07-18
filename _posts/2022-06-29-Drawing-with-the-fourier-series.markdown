@@ -26,18 +26,18 @@ The same can be applied for sine functions, however,they will be odd instead:
 
   $$ F(x)=a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(nx)+\displaystyle\sum_{n=1} ^{\infty} b_n \sin(nx)$$
 
-  Finally, as we have a general equation for the representation of any function $$F(x)$$. However, in order to actually get an equation for any given $$F(x)$$ we now need to find a way to compute $$a_0$$, $$a_n$$ and $$b_n$$ for all $$n$$. 
+ Finally, as we have a general equation for the representation of any function $$F(x)$$. However, in order to actually get an equation for any given $$F(x)$$ we now need to find a way to compute $$a_0$$, $$a_n$$ and $$b_n$$ for all $$n$$. 
 
 ### Finding the Coefficients: 
 
-     First Lets begin by finding a way to come up with a general equation for $$a_0$$. To do this I've taken inspiration from 3Blue1Brown's brilliant video on the topic: 
+ First Lets begin by finding a way to come up with a general equation for $$a_0$$. To do this I've taken inspiration from 3Blue1Brown's brilliant video on the topic: 
 
 <a href="https://www.youtube.com/watch?v=r6sGWTCMz2k" style="margin:auto;"><img src="https://img.youtube.com/vi/r6sGWTCMz2k/0.jpg"
      alt="Fourier_series_video"/> </a>
 
 
-     Although, 3Blue1Brown's video pertains to the exponential form of Fourier series, the same method can be applied to derive an equation which gives us $$a_0$$. 
+ Although, 3Blue1Brown's video pertains to the exponential form of Fourier series, the same method can be applied to derive an equation which gives us $$a_0$$. 
 
-     In essence, each sine or cos function in the summation represents a rotating vector. With sin "vectors"  beginning its rotation exactly $$\pi/2$$ before the cos: 
+ In essence, each sine or cos function in the summation represents a rotating vector. With sin "vectors"  beginning its rotation exactly $$\pi/2$$ before the cos: 
 
-<img src="\_assets\_gifs\1tyC.gif" style="margin: auto;">   
+<img src="Dinhbaon.github.io\_assets\_gifs\1tyC.gif" style="margin: auto;">   

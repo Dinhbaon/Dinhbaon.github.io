@@ -32,12 +32,11 @@ The same can be applied for sine functions, however,they will be odd instead:
 
  First Lets begin by finding a way to come up with a general equation for $$a_0$$. To do this I've taken inspiration from 3Blue1Brown's brilliant video on the topic: 
 
-<a href="https://www.youtube.com/watch?v=r6sGWTCMz2k" style="margin:auto;"><img src="https://img.youtube.com/vi/r6sGWTCMz2k/0.jpg"
-     alt="Fourier_series_video"/> </a>
+<div style="margin: auto;"> <a href="https://www.youtube.com/watch?v=r6sGWTCMz2k" style="margin:auto;"><img src="https://img.youtube.com/vi/r6sGWTCMz2k/0.jpg" alt="Fourier_series_video" style="margin: auto;"/> </a></div>
 
 
  Although, 3Blue1Brown's video pertains to the exponential form of Fourier series, the same method can be applied to derive an equation which gives us $$a_0$$. 
 
  In essence, each sine or cos function in the summation represents a rotating vector. With sin "vectors"  beginning its rotation exactly $$\pi/2$$ before the cos: 
 
-<img src="https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/_assets/_gifs/1tyC.gif" style="margin: auto;">   
+<div style="margin: auto;"> <img src="https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/_assets/_gifs/1tyC.gif" >   </div> 

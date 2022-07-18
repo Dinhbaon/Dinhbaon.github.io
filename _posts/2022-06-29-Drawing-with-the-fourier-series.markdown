@@ -38,6 +38,6 @@ First Lets begin by finding a way to come up with a general equation for $$a_0$$
 
 Although, 3Blue1Brown's video pertains to the exponential form of Fourier series, the same method can be applied to derive an equation which gives us $$a_0$$. 
 
-In essence, each sine or cos function in the summation represents a rotating vector. With sin "vectors"  beginning its rotation exactly ##\pi/2$$ before the cos: 
+In essence, each sine or cos function in the summation represents a rotating vector. With sin "vectors"  beginning its rotation exactly $$\pi/2$$ before the cos: 
 
 <img src="_assets\_gifs\1tyC.gif" style="margin: auto;">   

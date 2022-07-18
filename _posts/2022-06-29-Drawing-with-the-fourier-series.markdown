@@ -40,4 +40,4 @@ The same can be applied for sine functions, however,they will be odd instead:
 
  In essence, each sine or cos function in the summation represents a rotating vector. With sin "vectors"  beginning its rotation exactly $$\pi/2$$ before the cos: 
 
-<img src="Dinhbaon.github.io\_assets\_gifs\1tyC.gif" style="margin: auto;">   
+<img src="https://raw.githubusercontent.com/Dinhbaon/Dinhbaon.github.io/gh-pages/_assets/_gifs/1tyC.gif" style="margin: auto;">   

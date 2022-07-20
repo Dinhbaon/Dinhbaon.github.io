@@ -109,6 +109,7 @@ div.Aboutme h1{
 .project_page{ 
     display:block; 
     background-color: blanchedalmond;
+    text-align: center;
 }
 li a{ 
     color: black; 

@@ -29,11 +29,11 @@
         {% if post.categories contains "project" %}
 
             <div class="grid-item">
-                <a style="text-decoration: none; color: black; " href="{{ post.url }}">
-                <img id="blog-icon" src="{{ post.img }}"> </a>
+                <a style="text-decoration: none; color: black; " href="#drawingwithnumbers">
+                <img style="height:10vw; width: auto;"src="{{ post.img }}"> </a>
            
             <div style="transform: translateY(5px);"class="captions">
-                <a style="text-decoration: none; color: black; " href="{{post.url}} ">{{ post.title }}</a>
+                <a style="text-decoration: none; color: black; " href="#drawingwithnumbers">{{ post.title }}</a>
                 <br> 
                 <p style="font-size: 0.75em;"> {{ site.time | date_to_long_string }}</p>   
             </div>

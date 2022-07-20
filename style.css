@@ -94,7 +94,7 @@ ul.nav-bar li{
 .Aboutme{ 
     display: block;
     text-align: center;
-    background-color:  blanchedalmond;
+    background-color:  lemonchiffon;
     margin: 0;  
     padding: 0; 
 
@@ -108,7 +108,7 @@ div.Aboutme h1{
 }
 .project_page{ 
     display:block; 
-    background-color: lemonchiffon;
+    background-color: blanchedalmond;
 }
 li a{ 
     color: black; 

@@ -1,4 +1,4 @@
 ---
-layout: default 
-title: Blog home page
+layout: default
+title:  "DB's Blog"
 ---

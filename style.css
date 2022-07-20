@@ -106,6 +106,10 @@ div.Aboutme h1{
     padding: 50px 0 50px 0;
 
 }
+.project_page{ 
+    display:block; 
+    background-color: lightsalmon;
+}
 li a{ 
     color: black; 
     text-decoration: none;
@@ -221,6 +225,13 @@ div.captions div, div.captions p{
 @media only screen and (max-width: 600px) {
     ul.nav-bar li a{
         display: none; 
+    }
+    div.Aboutme h1{
+        font-weight: 450;
+        margin: 0; 
+        padding: 50px 0 50px 0;
+        font-size: 1.5em; 
+    
     }
     
   }

@@ -68,12 +68,7 @@ ul.nav-bar li{
     font-size: 1rem;  
     margin-top: 5px; 
 }
-.hamburger-icon{ 
-    display:none; 
-}
-.bar1, .bar2, .bar3{ 
-    display:none; 
-}
+
 .arrow-down {
     width: 0; 
     height: 0; 

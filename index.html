@@ -15,7 +15,7 @@
 <body> 
     <div class="myName"> 
         <ul class="nav-bar">
-            <div class="hamburger-icon" >
+            <div class="hamburger-icon" on-click= "Hamburger(this)">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -67,5 +67,7 @@
 </div> 
 <div class="license"><p style="left:10px;">Copyright (c) 2022 Dinhbaon</p</div>
 </body>
-
+<script>function Hamburger(x) {
+    x.classList.toggle("change");
+  } </script>
 </html>

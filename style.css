@@ -228,9 +228,9 @@ div.captions div, div.captions p{
     }
     .hamburger-icon{ 
         cursor: pointer;
-        display: inline-block;
-        height: 30px; 
-        width: 35px; 
+        display: inline;
+        float:right;  
+
     }
     .bar1{ 
     width: 35px;

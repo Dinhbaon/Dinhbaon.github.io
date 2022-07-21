@@ -230,6 +230,7 @@ div.captions div, div.captions p{
         cursor: pointer;
         display: inline;
         float:right;  
+        margin-right: 10px; 
 
     }
     .bar1{ 

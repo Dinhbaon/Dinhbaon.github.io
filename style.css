@@ -232,7 +232,7 @@ div.captions div, div.captions p{
         height: 30px; 
         width: 35px; 
     }
-    .bar1 .bar2 .bar3{ 
+    .bar1, .bar2, .bar3{ 
     width: 35px;
     height: 5px;
     background-color: #333;

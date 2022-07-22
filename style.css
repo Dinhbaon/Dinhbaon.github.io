@@ -269,5 +269,20 @@ div.captions div, div.captions p{
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
+  
   }
+  .sidebar{ 
+    width: 0; 
+    height: 100px; 
+    float: right; 
   }
+  .sidebar li{ 
+    visibility: hidden; 
+  }
+  .change .sidebar li{ 
+    visibility: visible; 
+  }
+  .change .sidebar{ 
+    width: 25vw; 
+  }
+}

@@ -215,7 +215,10 @@ div.captions div, div.captions p{
         height: 100%; 
         object-fit: fill;
 }
-
+.sidebar{ 
+    height:0;
+    width: 0; 
+}
 @media only screen and (max-width: 600px) {
     ul.nav-bar li a{
         display: none; 

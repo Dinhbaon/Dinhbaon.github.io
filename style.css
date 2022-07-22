@@ -275,9 +275,10 @@ div.captions div, div.captions p{
   
   }
   .sidebar{ 
-    width: 0; 
-    height: 100px; 
+    position: absolute; 
+    right: -25vw; 
     float: right; 
+    transition: 1s;
   }
   .sidebar li{ 
     visibility: hidden; 
@@ -286,6 +287,6 @@ div.captions div, div.captions p{
     visibility: visible; 
   }
   .change .sidebar{ 
-    width: 25vw; 
+    transform: translateX(-25vw); 
   }
 }

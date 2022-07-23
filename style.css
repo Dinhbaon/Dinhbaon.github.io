@@ -219,7 +219,9 @@ div.captions div, div.captions p{
     height:0;
     width: 0; 
 }
-
+.sidebar ul{ 
+  visibility: none; 
+}
 @media only screen and (max-width: 600px) {
 
     ul.nav-bar li a{

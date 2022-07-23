@@ -244,6 +244,7 @@ div.captions div, div.captions p{
 
     }
     .bar1{ 
+      position: relative; 
     width: 35px;
     height: 5px;
     background-color: #333;
@@ -253,6 +254,7 @@ div.captions div, div.captions p{
 
     }
     .bar2{
+      position: relative; 
     width: 35px;
     height: 5px;
     background-color: #333;
@@ -262,6 +264,7 @@ div.captions div, div.captions p{
     transition: 0.4s;
     }
     .bar3{
+      position: relative; 
     width: 35px;
     height: 5px;
     background-color: #333;

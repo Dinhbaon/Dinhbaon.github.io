@@ -267,20 +267,20 @@ div.captions div, div.captions p{
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
     transform: rotate(-45deg) translate(-9px, 6px) ;
-    color: white; 
+    background-color: white; 
   }
   
   /* Fade out the second bar */
   .change .bar2 {
     opacity: 0;
-    color: white; 
+    background-color: white; 
   }
   
   /* Rotate last bar */
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
-    color: white; 
+    background-color: white; 
   }
   .sidebar{ 
     position: absolute; 
@@ -291,12 +291,13 @@ div.captions div, div.captions p{
     transition: 1s;
     z-index: 2; 
     max-width: 100%; 
+    display:none;
   }
   .sidebarlist{ 
     right: -25vw; 
     transition: 1s; 
     list-style: none; 
-    color: white; 
+    color: white;   
   }
   .change .sidebar{ 
     transform: translateX(-25vw); 

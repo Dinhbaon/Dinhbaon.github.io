@@ -220,7 +220,7 @@ div.captions div, div.captions p{
     width: 0; 
 }
 .sidebarlist{ 
-  display: none; 
+  visibility: hidden; 
 }
 @media only screen and (max-width: 600px) {
 
@@ -296,7 +296,7 @@ div.captions div, div.captions p{
     height: 100%; 
     width: 25vw; 
     transition: 1s;
-    z-index: 1; 
+    z-index: 2; 
     max-width: 100%; 
     visibility: hidden;
   }

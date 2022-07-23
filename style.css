@@ -223,6 +223,9 @@ div.captions div, div.captions p{
   visibility: none; 
 }
 @media only screen and (max-width: 600px) {
+  html{ 
+    max-width: 100%; 
+  }
     ul.nav-bar li a{
         display: none; 
     }
@@ -284,7 +287,6 @@ div.captions div, div.captions p{
     right: -25vw; 
     height: 100%; 
     width: 25vw; 
-    float: right; 
     transition: 1s;
     z-index: 2; 
   }
@@ -293,6 +295,7 @@ div.captions div, div.captions p{
     transition: 1s; 
     color: white; 
     list-style: none; 
+    float: left; 
   }
   .change .sidebar li{ 
     transform: translateX(-25vw);   

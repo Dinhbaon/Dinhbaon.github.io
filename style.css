@@ -286,6 +286,7 @@ div.captions div, div.captions p{
     width: 25vw; 
     float: right; 
     transition: 1s;
+    z-index: 2; 
   }
   .sidebar li{ 
     right: -25vw; 
@@ -294,7 +295,7 @@ div.captions div, div.captions p{
     list-style: none; 
   }
   .change .sidebar li{ 
-    transform: translateX(-25vw); 
+    transform: translateX(-25vw);   
   }
   .change .sidebar{ 
     transform: translateX(-25vw); 

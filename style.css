@@ -311,4 +311,10 @@ div.captions div, div.captions p{
     transform: translateX(-25vw); 
     visibility:visible;
   }
+  .change .sidebarlist{ 
+    right: -25vw; 
+    transition: 1s; 
+    list-style: none; 
+      
+    
 }

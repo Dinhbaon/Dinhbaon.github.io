@@ -301,5 +301,6 @@ div.captions div, div.captions p{
   }
   .change .sidebar{ 
     transform: translateX(-25vw); 
+    display:visible;
   }
 }

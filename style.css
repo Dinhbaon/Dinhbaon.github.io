@@ -219,9 +219,7 @@ div.captions div, div.captions p{
     height:0;
     width: 0; 
 }
-.sidebar li{ 
-  visibility: none; 
-}
+
 @media only screen and (max-width: 600px) {
 
     ul.nav-bar li a{
@@ -289,7 +287,7 @@ div.captions div, div.captions p{
     z-index: 2; 
     max-width: 100%; 
   }
-  .sidebar li{ 
+  .sidebar ul{ 
     right: -25vw; 
     transition: 1s; 
     color: white; 

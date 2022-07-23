@@ -291,7 +291,7 @@ div.captions div, div.captions p{
     transition: 1s;
     z-index: 2; 
     max-width: 100%; 
-    display:none;
+    visibility: hidden;
   }
   .sidebarlist{ 
     right: -25vw; 
@@ -301,6 +301,6 @@ div.captions div, div.captions p{
   }
   .change .sidebar{ 
     transform: translateX(-25vw); 
-    display:visible;
+    visibility:visible;
   }
 }

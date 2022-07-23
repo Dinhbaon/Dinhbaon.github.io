@@ -287,14 +287,13 @@ div.captions div, div.captions p{
     transition: 1s;
   }
   .sidebar li{ 
-    position: absolute; 
     right: -25vw; 
     transition: 1s; 
   }
   .change .sidebar li{ 
-    transform: translateX(25vw); 
+    transform: translateX(-25vw); 
   }
   .change .sidebar{ 
-    transform: translateX(25vw); 
+    transform: translateX(-25vw); 
   }
 }

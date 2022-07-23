@@ -317,4 +317,8 @@ div.captions div, div.captions p{
     transform: translateX(-40vw); 
     visibility:visible;
   }
+  .change .sidebarlist{ 
+    visibility: visible; 
+    
+  }
 }

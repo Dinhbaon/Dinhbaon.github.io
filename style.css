@@ -283,12 +283,15 @@ div.captions div, div.captions p{
     background-color: black; 
     right: -25vw; 
     height: 100%; 
+    width: 25vw; 
     float: right; 
     transition: 1s;
   }
   .sidebar li{ 
     right: -25vw; 
     transition: 1s; 
+    color: white; 
+    list-style: none; 
   }
   .change .sidebar li{ 
     transform: translateX(-25vw); 

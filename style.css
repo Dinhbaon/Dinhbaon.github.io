@@ -292,7 +292,7 @@ div.captions div, div.captions p{
     z-index: 2; 
     max-width: 100%; 
   }
-  .sidebar ul{ 
+  .sidebarlist{ 
     right: -25vw; 
     transition: 1s; 
     list-style: none; 

@@ -323,7 +323,7 @@ div.captions div, div.captions p{
     
   }
   .change body{ 
-    background-blend-mode: darken; 
+    filter: brightness(50%);
   
   }
 }

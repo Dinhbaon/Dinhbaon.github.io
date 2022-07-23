@@ -284,7 +284,7 @@ div.captions div, div.captions p{
     background-color: white; 
   }
   .sidebar{ 
-    position: sticky; 
+    position: fixed; 
     background-color: black; 
     right: -25vw; 
     height: 100%; 

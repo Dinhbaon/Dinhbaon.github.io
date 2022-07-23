@@ -222,6 +222,7 @@ div.captions div, div.captions p{
 .sidebarlist{ 
 height: 0; 
 width:0 ;  
+margin: 0 ;
 }
 
 @media only screen and (max-width: 600px) {

@@ -236,7 +236,9 @@ div.captions div, div.captions p{
     }
     .hamburger-icon{ 
         cursor: pointer;
-        position: fixed; 
+        position: absolute;
+        top: 5vw; 
+        right: 2vw;  
         display: inline;
         float:right;  
         margin-right: 10px; 

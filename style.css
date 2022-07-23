@@ -322,4 +322,8 @@ div.captions div, div.captions p{
     visibility: visible; 
     
   }
+  .change body{ 
+    background-blend-mode: darken; 
+  
+  }
 }

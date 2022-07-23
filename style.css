@@ -296,6 +296,7 @@ div.captions div, div.captions p{
     right: -25vw; 
     transition: 1s; 
     list-style: none; 
+    color: white; 
   }
   .change .sidebar{ 
     transform: translateX(-25vw); 

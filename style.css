@@ -246,33 +246,33 @@ div.captions div, div.captions p{
 
     }
     .bar1{ 
-      position: fixed; 
+
     width: 35px;
     height: 5px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
-    z-index: 3; 
+
 
     }
     .bar2{
-      position: fixed; 
+
     width: 35px;
     height: 5px;
     background-color: #333;
     margin: 6px 0;
-    z-index: 3; 
+
 
     transition: 0.4s;
     }
     .bar3{
-      position: fixed; 
+
     width: 35px;
     height: 5px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
-    z-index: 3; 
+
 
     }
     /* Rotate first bar */

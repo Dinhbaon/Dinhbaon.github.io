@@ -237,6 +237,7 @@ div.captions div, div.captions p{
         display: inline;
         float:right;  
         margin-right: 10px; 
+        z-index: 3; 
 
     }
     .bar1{ 
@@ -290,7 +291,6 @@ div.captions div, div.captions p{
   .sidebar ul{ 
     right: -25vw; 
     transition: 1s; 
-    color: white; 
     list-style: none; 
   }
   .change .sidebar{ 

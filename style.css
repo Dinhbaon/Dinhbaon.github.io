@@ -322,8 +322,5 @@ div.captions div, div.captions p{
     visibility: visible; 
     
   }
-  body.change{ 
-    filter: brightness(50%);
-  
-  }
+
 }

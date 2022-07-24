@@ -330,5 +330,19 @@ visibility: hidden;
     display: block;  
     padding-bottom: 100px; 
 }
+#intro{
+  font-weight: 450;   
+  font-family: helvetica, sans-serif; 
+  font-size: 1.75rem;
+  white-space:nowrap; 
+}
+#intro1{
+  font-size: 1rem;
+  white-space:nowrap; 
+}
+#info{ 
+  margin: auto;
+  width: 50%; 
+}
 
 }

@@ -64,7 +64,7 @@ body {
 ul.nav-bar li{
     float: right;
     display: inline-block;
-    padding: 5px 100px;   
+    padding: 5px 10vw;   
     font-size: 1rem;  
     margin-top: 5px; 
 }

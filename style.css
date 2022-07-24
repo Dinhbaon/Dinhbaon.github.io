@@ -326,5 +326,9 @@ visibility: hidden;
     visibility: visible; 
     
   }
+  .desc{
+    display: block;  
+    padding-bottom: 100px; 
+}
 
 }

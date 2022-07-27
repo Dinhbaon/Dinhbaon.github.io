@@ -36,7 +36,7 @@ $$\begin{align} \cos(\frac{n 2\pi}{T}\ x)=\frac{e^{\frac{n 2\pi}{T}\ x}+e^{-\fra
 
 substituting this equation in to our original trignometric form of the Fourier series yields the following: 
 
-$$ F(x)=  $$a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(\frac{n 2\pi}{T}\ x)+\displaystyle\sum_{n=1} ^{\infty} b_n \sin(\frac{n 2\pi}{T}\ x)$$ 
+$$ F(x)=  a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(\frac{n 2\pi}{T}\ x)+\displaystyle\sum_{n=1} ^{\infty} b_n \sin(\frac{n 2\pi}{T}\ x)$$ 
 
 
 

@@ -30,10 +30,12 @@ The same can be applied for sine functions, however,they will be odd instead:
 
  Finally, as we have a general equation for the representation of any function $$F(x)$$. We can now rewrite this equation in exponential form as it is in trignometric form currently. This can be done by using Euler's formulas: 
 
-    $$\begin{align} \cos(x)=\frac{e^{ix}+e^{-ix}}{2}  & \sin(x)=\frac{e^{ix}-e^{-ix}}{2}   \end{align} $$
+$$\begin{align} \cos(x)=\frac{e^{ix}+e^{-ix}}{2}  & \sin(x)=\frac{e^{ix}-e^{-ix}}{2}   \end{align} $$
 
 substituting this equation in to our original trignometric form of the Fourier series yields the following: 
- 
+
+F(x) = 
+
 
 
 

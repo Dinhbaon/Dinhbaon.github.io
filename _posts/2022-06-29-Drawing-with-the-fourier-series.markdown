@@ -28,7 +28,9 @@ The same can be applied for sine functions, however,they will be odd instead:
 
   $$ F(x)=a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(\frac{n 2\pi}{T}\ x)+\displaystyle\sum_{n=1} ^{\infty} b_n \sin(\frac{n 2\pi}{T}\ x)$$
 
- Finally, as we have a general equation for the representation of any function $$F(x)$$. We can now rewrite this equation in exponential form as it is in trignometric form currently. 
+ Finally, as we have a general equation for the representation of any function $$F(x)$$. We can now rewrite this equation in exponential form as it is in trignometric form currently. This can be done by using Euler's formulas: 
+    $$\begin{align} \cos(x)=\frac{e^{ix}+e^{-ix}}{2}  & \sin(x)=\frac{e^{ix}-e^{-ix}}{2}   end{align} $$ 
+
 
 
 

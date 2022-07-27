@@ -30,13 +30,13 @@ The same can be applied for sine functions, however,they will be odd instead:
 
  Finally, as we have a general equation for the representation of any function $$F(x)$$. We can now rewrite this equation in exponential form as it is in trignometric form currently. This can be done by using Euler's formulas: 
 
-$$\begin{align} \cos(x)=\frac{e^{ix}+e^{-ix}}{2}  \\ \sin(\frac{n 2\pi}{T}\ x)=\frac{e^{ix}-e^{-ix}}{2i}   \end{align} $$
+$$\begin{align} \cos(x)=\frac{e^{ix}+e^{-ix}}{2}  \\ \sin(x)=\frac{e^{ix}-e^{-ix}}{2i}   \end{align} $$
 
 $$\begin{align} \cos(\frac{n 2\pi}{T}\ x)=\frac{e^{\frac{n 2\pi}{T}\ x}+e^{-\frac{n 2\pi}{T}\ x}}{2}  \\ \sin(\frac{n 2\pi}{T}\  x)=\frac{e^{\frac{n 2\pi}{T}\ x}-e^{-\frac{n 2\pi}{T}\ x}}{2i}   \end{align} $$
 
 substituting this equation in to our original trignometric form of the Fourier series yields the following: 
 
-$$ F(x)=  a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \cos(\frac{n 2\pi}{T}\ x)+\displaystyle\sum_{n=1} ^{\infty} b_n \sin(\frac{n 2\pi}{T}\ x)$$ 
+$$ F(x)=  a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \frac{e^{\frac{n 2\pi}{T}\ x}+e^{-\frac{n 2\pi}{T}\ x}}{2}+\displaystyle\sum_{n=1} ^{\infty} b_n \frac{e^{\frac{n 2\pi}{T}\ x}-e^{-\frac{n 2\pi}{T}\ x}}{2i}$$ 
 
 
 

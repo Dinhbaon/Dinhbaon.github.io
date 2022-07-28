@@ -43,7 +43,7 @@ $$ F(x)=  a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \frac{e^{\frac{n 2\pi}{T}\ x
 
 Factoring out like terms we get: 
 
-$$F(x) = a_0+\displaystyle\sum_{n=1} ^{\infty}frac{\e^{\frac{n 2\pi}{T}}(a_n-ib_n)}{2}+frac{\e^{-\frac{n 2\pi}{T}}(a_n+ib_n)}{2}$$
+$$F(x) = a_0+\displaystyle\sum_{n=1} ^{\infty}frac{(a_n-ib_n)e^{\frac{n 2\pi}{T}}}{2}+frac{(a_n+ib_n)e^{-\frac{n 2\pi}{T}}}{2}$$
 
 
 

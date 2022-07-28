@@ -42,7 +42,8 @@ substituting this equation in to our original trignometric form of the Fourier s
 $$ F(x)=  a_0+\displaystyle\sum_{n=1} ^{\infty} a_n \frac{e^{\frac{n 2\pi}{T}\ x}+e^{-\frac{n 2\pi}{T}\ x}}{2}+\displaystyle\sum_{n=1} ^{\infty} b_n \frac{e^{\frac{n 2\pi}{T}\ x}-e^{-\frac{n 2\pi}{T}\ x}}{2i}$$ 
 
 Factoring out like terms we get: 
-$$F(x) = a_0+\displaystyle\sum_{n=1} ^{\infty}frac{e^{\frac{n 2\pi}{T}}(a_n-ib_n)}{2}+frac{e^{-\frac{n 2\pi}{T}}(a_n+ib_n)}{2}$$
+
+$$F(x) = a_0+\displaystyle\sum_{n=1} ^{\infty}frac{\e^{\frac{n 2\pi}{T}}(a_n-ib_n)}{2}+frac{\e^{-\frac{n 2\pi}{T}}(a_n+ib_n)}{2}$$
 
 
 

@@ -49,6 +49,8 @@ $$F(x) = a_0+\displaystyle\sum_{n=1} ^{\infty}\frac{(a_n-ib_n)e^{\frac{n 2\pi}{T
 
 
 
+
+
 <!-- ### Finding the Coefficients: 
 
  First Lets begin by finding a way to come up with a general equation for $$a_0$$. We can see that the variable, $$a_0$$ is the vertical shift of the function. We also have to note that the average value of each individual sinusoid for complete periods is equal to the midline(the vertical shift). 

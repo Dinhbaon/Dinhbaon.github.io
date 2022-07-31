@@ -107,7 +107,9 @@ ul.nav-bar li{
 
 div.Aboutme h1{
     font-weight: 450;
-    margin: 0; 
+    margin: 0;
+   
+  top:20%;
 
 
 }
@@ -131,6 +133,8 @@ li a{
     display: flex; 
     justify-content: space-evenly;
     padding-bottom: 100px; 
+    position: relative; 
+    top: 30%
 
 }
 #info{ 
@@ -337,10 +341,13 @@ visibility: hidden;
   .desc{
     display: block;  
     padding-bottom: 100px; 
-    transform: translate(none); 
+    top: auto;
+}
+  .Aboutme{ 
+  height: auto; 
 }
 div.Aboutme h1{
-  transform: translate(none); 
+  top: auto;  
 
 
 }

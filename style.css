@@ -90,9 +90,62 @@ ul.nav-bar li{
     50%{opactity: 0.5; transform: translateY(15px);}
     100% {opacity:0; transform: translateY(30px);} 
  } 
-
-.Aboutme{ 
+.contactbar{ 
+  position: sticky; 
+  float: left; 
+  top: 23%; 
+  transform: translateY(50%);
+  z-index: 2; 
+  display: block;
+}
+.contactbar div img{ 
+  width: 3vw; 
+  height: 3vw; 
+  transform: translate(-0.5vw,0.6vw);
+  float:right; 
+  padding-left: 0.5vw;
   
+}
+.contactbar div{ 
+  width: 10vw; 
+  height: 4.5vw;
+  transition: transform 1s;
+  transform: translateX(-6vw);
+  margin:0; 
+  text-align: center; 
+  filter: saturate(75%);
+
+  
+}
+#github{ 
+  background-color:black; 
+}
+#linkedin{ 
+  background-color:#0a66c2 ;
+}
+#email{ 
+  background-color:mediumturquoise; 
+}
+.contactbar p{ 
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 5vw;
+  color: white;
+  transform: translateY(1.3vw);
+  font-size: 1rem;
+  display: inline-block;
+  position: relative;
+
+  
+}
+
+.contactbar div:hover{ 
+
+  transform: translateX(0); 
+}
+.Aboutme{ 
     text-align: center;
     background-color:  lemonchiffon;
     margin: 0;  
@@ -100,16 +153,13 @@ ul.nav-bar li{
     position: relative;
     height: 100vh;
     display: block;
-
-
-
 }
 
 div.Aboutme h1{
     font-weight: 450;
     margin: 0;
-   
-  top:20%;
+    position:relative; 
+    top:20%;
 
 
 }
@@ -365,5 +415,7 @@ div.Aboutme h1{
   margin: auto;
   width: 70%; 
 }
-
+.contactbar{ 
+  visibility: hidden;
+}
 }

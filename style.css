@@ -337,6 +337,12 @@ visibility: hidden;
   .desc{
     display: block;  
     padding-bottom: 100px; 
+    transform: translate(none); 
+}
+div.Aboutme h1{
+  transform: translate(none); 
+
+
 }
 #intro{
   font-weight: 450;   

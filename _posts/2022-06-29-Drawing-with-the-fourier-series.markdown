@@ -30,7 +30,7 @@ The same can be applied for sine functions, however,they will be odd instead:
 
  Finally, as we have a general equation for the representation of any function $$F(x)$$. 
  
- ## Exponential form of the Fourier series 
+## Exponential form of the Fourier series 
  We can now rewrite this equation in exponential form as it is in trignometric form currently. This can be done by using Euler's formulas: 
 
 $$\begin{align} \cos(x)=\frac{e^{ix}+e^{-ix}}{2}  \\ \sin(x)=\frac{e^{ix}-e^{-ix}}{2i}   \end{align} $$

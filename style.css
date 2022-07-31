@@ -128,7 +128,7 @@ li a{
 
 }
 .desc{
-    display: flex;  
+    display: flex; 
     justify-content: space-evenly;
     padding-bottom: 100px; 
 

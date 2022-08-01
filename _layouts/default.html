@@ -38,14 +38,14 @@
             <li><a href="index.html">Home</a></li>
 
         </ul>
-    <div class="blog-grid"style="max-width:100%"> 
+
     
         {% for post in site.posts %}
         {% if post.categories contains "project" %}
 
         {%else%}
 
-
+        <div style="width: 50vw;">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
 
                     
@@ -56,11 +56,12 @@
                    <p >Continue Reading {{post.title}}</p> 
                     
                     
+                </div>
 
 
         {% endif %}
         {% endfor %}
-    </div>
+
     </div>
 
 </div>

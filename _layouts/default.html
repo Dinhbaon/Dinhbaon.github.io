@@ -45,20 +45,18 @@
 
         {%else%}
 
-            <div class="blog-grid-item" style="padding-top: 5vw;">
+
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
-                <div class="captions">
-                    <ul>
-                    <li>
+
+                    
                    <a style="text-decoration: none; color: black;   " href="{{post.url}} ">{{ post.title }}</a>
                    <br/>
-                   <p style="font-size: 0.75em;"> {{ site.time | date_to_long_string }}</p>  
-                   </li>
-                   </ul>
+                   <p style="font-size: 0.75em;"> {{ post.time | date_to_long_string }}</p>  
+                   <div>{{post.excerpt}}</div>
+                   <p >Continue Reading {{post.title}}</p> 
                     
                     
-                </div>
-            </div>
+
 
         {% endif %}
         {% endfor %}

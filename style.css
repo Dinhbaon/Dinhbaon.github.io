@@ -101,7 +101,7 @@ ul.nav-bar li{
 .contactbar div img{ 
   width: 3vw; 
   height: 3vw; 
-  transform: translate(-0.5vw,0.6vw);
+  transform: translate(-0.5vw,0.75vw);
   float:right; 
   padding-left: 0.5vw;
   
@@ -124,7 +124,7 @@ ul.nav-bar li{
   background-color:#0a66c2 ;
 }
 #email{ 
-  background-color:mediumturquoise; 
+  background-color: mediumturquoise; 
 }
 .contactbar p{ 
   margin-block-start: 0;
@@ -133,7 +133,7 @@ ul.nav-bar li{
   margin-inline-end: 0px;
   width: 5vw;
   color: white;
-  transform: translateY(1.3vw);
+  transform: translateY(1.5vw);
   font-size: 1rem;
   display: inline-block;
   position: relative;

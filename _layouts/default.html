@@ -45,14 +45,14 @@
 
         {%else%}
 
-        <div style="width: 50vw;">
+        <div style="width: 50vw; margin: auto; margin-top:5vw;">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
 
                     
-                   <a style="text-decoration: none; color: black;   " href="{{post.url}} ">{{ post.title }}</a>
+                   <a style="text-decoration: none; color: black; font-size:2rem;   " href="{{post.url}} ">{{ post.title }}</a>
                    <br/>
-                   <p style="font-size: 0.75em;"> {{ post.time | date_to_long_string }}</p>  
-                   <div>{{post.excerpt}}</div>
+                   <p style="font-size: 0.75em; color:blanchedalmond"> {{ post.date | date_to_long_string }}</p>  
+                   <div>{{ post.content | strip_html | truncatewords: 50 }}</div>
                    <p >Continue Reading {{post.title}}</p> 
                     
                     

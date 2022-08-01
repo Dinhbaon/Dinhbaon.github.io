@@ -23,7 +23,14 @@
         <a  href="index.html"><li style="list-style: none; color: white; padding:4vw 0; text-decoration: none;   ">Home</li></a>
         </ul>
     </div>
-
+    <div class="sidebar"> 
+        <ul class="sidebarlist">
+        <li style="list-style: none; color: white; padding:4vw 0; text-decoration: none;  ">Resume</li>
+        <a href="blog.html"><li style="list-style: none; color: white; padding:4vw 0; text-decoration: none;  ">Blog</li></a>
+        <!-- <a href="project.html"><li style="list-style: none; color: white; padding:4vw 0; text-decoration: none;  ">Projects</li></a> -->
+        <a  href="index.html"><li style="list-style: none; color: white; padding:4vw 0; text-decoration: none;  ">Home</li></a>
+        </ul>
+    </div>
     <div class="myName"> 
         <div class="hamburger-icon" onclick= Hamburger(body)>
             <div class="bar1"></div>
@@ -53,7 +60,7 @@
                    <br/>
                    <p style="font-size: 0.75em; color: beige"> {{ post.date | date_to_long_string }}</p>  
                    <div>{{ post.content | strip_html | truncatewords: 50 }}</div>
-                   <p><a  href="{{post.url}} ">Continue Reading {{post.title}}</p> 
+                   <p><a style="color:#0000EE" href="{{post.url}} ">Continue Reading {{post.title}}</p> 
                     
                     
                 </div>

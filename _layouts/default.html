@@ -45,15 +45,15 @@
 
         {%else%}
 
-        <div style="width: 50vw; margin: auto; margin-top:5vw;">
+        <div style="width: 50vw; margin: auto; margin: 5vw, 0; ">
                 <a style="text-decoration: none; color: black; " href="{{ post.url }}">
 
                     
                    <a style="text-decoration: none; color: black; font-size:2rem;   " href="{{post.url}} ">{{ post.title }}</a>
                    <br/>
-                   <p style="font-size: 0.75em; color:blanchedalmond"> {{ post.date | date_to_long_string }}</p>  
+                   <p style="font-size: 0.75em; color: beige"> {{ post.date | date_to_long_string }}</p>  
                    <div>{{ post.content | strip_html | truncatewords: 50 }}</div>
-                   <p >Continue Reading {{post.title}}</p> 
+                   <p><a  href="{{post.url}} ">Continue Reading {{post.title}}</p> 
                     
                     
                 </div>

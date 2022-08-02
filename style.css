@@ -113,6 +113,7 @@ ul.nav-bar li{
   transform: translateX(-6vw);
   margin:0; 
   text-align: center; 
+  line-height: 4.5vw;
   filter: saturate(75%);
 
   
@@ -133,8 +134,8 @@ ul.nav-bar li{
   margin-inline-end: 0px;
   width: 5vw;
   color: white;
-  transform: translateY(1.5vw);
-  font-size: 1rem;
+
+  font-size: 1.2vw;
   display: inline-block;
   position: relative;
 

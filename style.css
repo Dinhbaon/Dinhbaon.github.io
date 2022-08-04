@@ -20,6 +20,15 @@ html{
     background-color: beige;
 
 }
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(10%); 
+  opacity: 12%;
+}
 .myBlogPost{ 
     display: block;
     width: 100vw;  
@@ -32,10 +41,10 @@ html{
 #intro{
     font-weight: 450;   
     font-family: helvetica, sans-serif; 
-    font-size: 1.75rem;
+    font-size: 2.4rem; ;
 }
 #intro1{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 body {

@@ -18,16 +18,21 @@ html{
     padding: 0; 
     max-width: 100%;
     background-color: beige;
+    
 
 }
 #myVideo {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  transform: translateX(10%); 
-  opacity: 12%;
+  min-width: 80%;
+  min-height: 80%;
+  opacity: 10%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-60%, -50%);
+
+
 }
 .myBlogPost{ 
     display: block;
@@ -413,8 +418,6 @@ visibility: hidden;
 }
 div.Aboutme h1{
   top: auto;  
-
-
 }
 #intro{
   font-weight: 450;   
@@ -429,6 +432,18 @@ div.Aboutme h1{
 #info{ 
   margin: auto;
   width: 70%; 
+}
+#myphoto{ 
+  padding-bottom: 5vw; 
+}
+#myVideo {
+
+  height:60%;
+  
+  
+ 
+
+
 }
 .contactbar{ 
   visibility: hidden;

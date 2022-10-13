@@ -189,6 +189,11 @@ div.Aboutme h1{
   width: 20vw; 
   height: 15vw; 
   background-color: white; 
+
+}
+.projectdisplay img{ 
+  object-fit: cover; 
+  overflow: hidden; 
 }
 li a{ 
     color: black; 

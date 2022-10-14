@@ -456,6 +456,13 @@ div.Aboutme h1{
 
   height:60%;
 }
+.project_page{ 
+  display:block; 
+  background-color: blanchedalmond;
+  text-align: center;
+  position: relative; 
+  height: 100%;
+}
 .projectdisplaycontainer{ 
   display: flex;
   flex-direction: column;

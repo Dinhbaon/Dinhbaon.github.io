@@ -178,12 +178,17 @@ div.Aboutme h1{
 
 
 }
+
 .project_page{ 
     display:block; 
     background-color: blanchedalmond;
     text-align: center;
     position: relative; 
     height: 100vh;
+}
+.projectdisplaycontainer{ 
+  display:flex; 
+  justify-content:space-evenly;
 }
 .projectdisplay{ 
   width: 20vw; 
@@ -317,7 +322,9 @@ margin: 0 ;
 visibility: hidden;
 }
 
+
 @media only screen and (max-width: 600px) {
+
 
     ul.nav-bar li a{
         display: none; 
@@ -448,11 +455,19 @@ div.Aboutme h1{
 #myVideo {
 
   height:60%;
-  
-  
- 
-
-
+}
+.projectdisplaycontainer{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.projectdisplay{ 
+  width: 80vw;
+  height: 15vw;
+  background-color: white;
+  border-radius: 10px;
+  margin: 3vh;
 }
 .contactbar{ 
   visibility: hidden;

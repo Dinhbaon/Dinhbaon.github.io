@@ -194,7 +194,6 @@ div.Aboutme h1{
 .projectdisplay img{ 
   object-fit: none; 
   overflow: hidden; 
-  max-height:100%;
 }
 li a{ 
     color: black; 

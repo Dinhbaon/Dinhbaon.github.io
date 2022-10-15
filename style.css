@@ -468,7 +468,7 @@ div.Aboutme h1{
 }
 .projectdisplay{ 
   width: 80vw;
-  height: 20vh;
+  height: 40vh;
   background-color: white;
   border-radius: 10px;
   margin: 3vh;
@@ -476,6 +476,7 @@ div.Aboutme h1{
 }
 .projectdisplay img{ 
   height: 40vh; 
+  border-radius: 10px; 
 }
 .contactbar{ 
   visibility: hidden;

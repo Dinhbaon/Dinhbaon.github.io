@@ -471,7 +471,7 @@ div.Aboutme h1{
 }
 .projectdisplay{ 
   width: 80vw;
-  height: 15vw;
+  height: 20vh;
   background-color: white;
   border-radius: 10px;
   margin: 3vh;

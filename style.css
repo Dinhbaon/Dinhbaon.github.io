@@ -195,6 +195,7 @@ div.Aboutme h1{
   height: 40vh; 
   background-color: white; 
   border-radius: 10px; 
+  border: solid black 1px;
 
 }
 .projectdisplay img{ 

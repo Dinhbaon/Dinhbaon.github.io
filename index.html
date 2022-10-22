@@ -10,9 +10,7 @@
     <meta name="description" content="Welcome to my website!. My name is Dinhbao (DB) and I am an undergraduate maths student at the university of Waterloo (uWaterloo). You will find more information about my experiences and projects here." />
     <meta property="og:description" content="Welcome to my website!. My name is Dinhbao (DB) and I am an undergraduate maths student at the university of Waterloo (uWaterloo). You will find more information about my experiences and projects here." />
     <meta name="google-site-verification" content="MyuFZDyn6nbAqKyzl0URNq9DttRJzbt0voxUpJEGNeU" />
-    <script>function Hamburger(x) {
-        x.classList.toggle("change");
-      } </script>
+
 </head>
 <body> 
     <video autoplay="autoplay" muted loop id="myVideo" playsinline src="pi animation crop.mp4" type="video/mp4">
@@ -71,7 +69,7 @@
     <div class="project_page" id="projects">
         <h1 style="margin:0; padding: 50px 0; font-weight:450; ">My Projects</h1>
         <div class="projectdisplaycontainer"> 
-            <div class="projectdisplay"><img src="assets\images\screenshot first project.PNG"></div>
+            <div class="projectdisplay" id="project1" onclick="ani()"><img src="assets\images\screenshot first project.PNG"><figcaption>Webscraped r/collegeresults<figcaption\></figcaption></div>
             <div class="projectdisplay"></div>
             <div class="projectdisplay"></div>
             <!-- <img src="assets\images\collage.png" alt="collage of drawing with numbers work" style= "height:30vw; width:auto; "  />
@@ -97,3 +95,8 @@
 </body>
 
 </html>
+<script>
+    function Hamburger(x) {
+        x.classList.toggle("change");
+    }
+      </script>

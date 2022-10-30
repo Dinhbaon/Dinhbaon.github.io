@@ -17,7 +17,8 @@ html{
     margin: 0; 
     padding: 0; 
     max-width: 100%;
-    background-color: beige;
+    background-color: 
+    #fefefc;
     
 
 }
@@ -162,7 +163,7 @@ ul.nav-bar li{
 }
 .Aboutme{ 
     text-align: center;
-    background-color:  lemonchiffon;
+    background-color:  white;
     margin: 0;  
     padding: 0; 
     position: relative;
@@ -181,10 +182,12 @@ div.Aboutme h1{
 
 .project_page{ 
     display:block; 
-    background-color: blanchedalmond;
+    background-color: white;
     text-align: center;
     position: relative; 
-    height: 100vh;
+    height: auto;
+    clear: both;
+    overflow: auto;
 }
 .projectdisplaycontainer{ 
   display:flex; 
@@ -196,6 +199,7 @@ div.Aboutme h1{
   background-color: white; 
   border-radius: 10px; 
   border: solid black 1px;
+  margin-bottom: 10vh;
 
 }
 .projectdisplay img{ 
@@ -205,7 +209,32 @@ div.Aboutme h1{
   object-fit: cover;  
   border-radius: 10px; 
 }
-
+.projectdisplay:hover{ 
+  box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
+#technologies-container{ 
+  display:flex; 
+  justify-content:space-evenly;
+  padding-bottom: 5vh; 
+}
+.techused{
+  width: 20vw; 
+  height: 25vh; 
+  background-color: white; 
+  border-radius: 10px; 
+  border: solid black 1px;
+}
+.techused img{ 
+  overflow: hidden;
+  width: 60%;
+  height: 60%;
+  object-fit: contain;  
+  padding-top: 3vh; 
+  margin: auto;
+}
+.techused:hover{ 
+  box-shadow: 0 0 20px rgba(33,33,33,.2); 
+}
 li a{ 
     color: black; 
     text-decoration: none;
@@ -213,6 +242,8 @@ li a{
 }
 #myphoto{
     border-radius: 50%;
+    height: 15vw; 
+    width:auto;
 
 }
 .desc{

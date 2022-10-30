@@ -18,12 +18,13 @@
       <script>
         document.getElementById('myVideo').play();
     </script>
+    <!--
     <div class="contactbar">
         <div id="github"><a href="https://github.com/Dinhbaon" target="_blank"><p>Github</p><img src="assets\images\github logo.png" alt="github logo"></a></div>
         <div id="linkedin"><a href="https://www.linkedin.com/in/nguyendinhbao/" target="_blank"><p>Linkedin</p><img src="assets\images\linkedin logo.png" alt="linkedin logo"></a></div>
         <div id="email"><a href="mailto:d26nguye@uwaterloo.ca" target="_blank"><p >Email</p><img style="filter: invert(92%) sepia(49%) saturate(2%) hue-rotate(9deg) brightness(105%) contrast(100%);"src="assets\images\email.png" alt="email logo"></a></div>
-        
     </div>
+-->
     <div class="sidebar"> 
         <ul class="sidebarlist">
         <li style="list-style: none; color: white; padding:4vw 0; text-decoration: none;  ">Resume</li>
@@ -54,6 +55,11 @@
         <h1 id="intro">Hi, I'm Dinh Bao (DB)</h1>
         <p id="intro1">Welcome to my website</p>
         <p id="intro1">@Uwaterloo Honors Math✖️➕➗ </p>
+        <div style="display: flex">
+            <a href="https://github.com/Dinhbaon" target="_blank"><img style="width:2vw; height:auto; margin: 0 1vw 0 0vw"src="assets\images\githublogo outline.png"/></a>
+            <a href="https://www.linkedin.com/in/nguyendinhbao/" target="_blank"><img style="width: 2vw; height:auto; margin: 0 1vw 0 1vw" src="assets\images\Linkedin-icon.png"/></a>
+            <a href="mailto:d26nguye@uwaterloo.ca" target="_blank"><img style="width: 2vw; height:auto; margin: 0 1vw 0 1vw" src="assets\images\email.png"/></a>
+        </div>
         <a href="#second-page"> <div class="arrow-down"> </div></a>
             </div>
     </div>
@@ -67,9 +73,9 @@
         </div>
     </div> 
     <div class="project_page" id="projects">
-        <h1 style="margin:0; padding: 50px 0; font-weight:450; ">My Projects</h1>
+        <h1 style="margin:0; padding: 50px 10vw; font-weight:450; text-align: left">Projects</h1>
         <div class="projectdisplaycontainer"> 
-            <div class="projectdisplay" id="project1" onclick="ani()"><img src="assets\images\screenshot first project.PNG"><figcaption>Webscraped r/collegeresults<figcaption\></figcaption></div>
+            <div class="projectdisplay" id="project1" onclick="ani()"><a href="redditcollegeresults.com" target='_blank'><img src="assets\images\screenshot first project.PNG"><figcaption>Webscraped r/collegeresults</figcaption></a></div>
             <div class="projectdisplay"></div>
             <div class="projectdisplay"></div>
             <!-- <img src="assets\images\collage.png" alt="collage of drawing with numbers work" style= "height:30vw; width:auto; "  />
@@ -78,6 +84,15 @@
                 <br><br> <a href="https://www.instagram.com/drawingwithnumbers/" style="color:black;" target="_blank">See more-></a>
             </p> -->
 
+        </div>
+        <div>
+            <h1 style="margin:0; padding: 5px 10vw; font-weight:450; text-align:left">Skills</h1>
+            <p style="padding: 5px 10vw; font-weight:450; text-align:left">These are the technologies I've worked with</p>
+            <div id="technologies-container"> 
+                <div class="techused"><img src="assets/images/svelte-logo.png"><figcaption>Svelte</figcaption></div>
+                <div class="techused"><img src="assets/images/flask-logo.png"><figcaption>Flask</figcaption></div>
+                <div class="techused"><img src="assets/images/mysql-logo.png"><figcaption>Mysql</figcaption></div>
+            </div>
         </div>
 
     </div>
@@ -99,4 +114,7 @@
     function Hamburger(x) {
         x.classList.toggle("change");
     }
+    document.getElementById("project1").addEventListener('click',clicked)
+
+
       </script>
